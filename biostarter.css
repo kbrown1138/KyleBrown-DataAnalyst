@@ -1,6 +1,4 @@
-/*
- First External CSS Stylesheet
- */
+
 
 /* Styling for HTML elements */
 body {
@@ -12,19 +10,24 @@ body {
     color: #333;
     background: #efeee7;
   }
+
+.container-fluid {
+    background-color: black
+}
   
-  header {
-    background: #333;
-  }
-  
-  h1 {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
+  .navbar-brand {
     font-size: 28px;
-    color: #eee;
-    text-align: center;
-  }
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: absolute;
+    left: 80px;
+    transition: 0.3s;
+ }
+ 
+.navbar .navbar-brand {
+    color: black;
+}
   
   h2 {
     font-size: 24px;
@@ -35,10 +38,10 @@ body {
   }
   
   /* Selecting elements by class */
-  .container {
+  /* .container {
     width: 1024px;
     margin: 0 auto;
-  }
+  } */
   
   /* Selecting elements by ID */
   #main-bio,
@@ -69,7 +72,31 @@ body {
     position: relative;
     width: 200px;
     height: 200px;
-    top: 12px;
-    left: -120px;
+    top: 30px;
+    left: -90px;
+  }
+
+  .box {
+    padding: 30px;
+    background: white;
+    margin-top:50px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:20px;
+    align-content: center;
+  }
+
+  .box-2 {
+    padding: 30px;
+    background: white;
+    margin-top:50px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:20px;
+    align-content: center;
+  }
+
+  footer {
+    padding: 30px;
   }
   

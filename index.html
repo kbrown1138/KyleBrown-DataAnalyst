@@ -1,22 +1,55 @@
 <!DOCTYPE html>
-
-<!-- CSS Stylesheets with Relative Paths -->
-
-<html lang="en-us">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>CSS Stylesheets with Relative Paths</title>
-
-  <!-- This line is money! It points your HTML to the CSS file. -->
-  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
-  <link rel="stylesheet" type="text/css" href="biostarter.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kyle's Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="biostarter.css">
+ <script src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
-
 <body>
-
-  <header>
-    <h1>Kyle's Porfolio</h1>
-  </header>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Kyle's Portfolio</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://kbrown1138.github.io/Leaflet-Data-Visualization/"><p>Leaflet Earthquake Data Visualization</p></a></li>
+                <li><a href="https://kbrown1138.github.io/D3-Data-Journalism/"><p>D3 Data Journalism</p></a></li>
+                <li><a href="https://bellybutton-biodiversity-kyle.herokuapp.com/"><p>Belly Button Biodiversity</p></a></li>
+                <li><a href="https://kbrown1138.github.io/Web-Visualization-Dashboard/"><p>OpenWeatherMap API Visualization Dashboard</p></a></li>
+                <li><a href="https://github.com/chasedavid/project1_uofa"><p>Global Terrorism</p></a></li>
+                <li><a href="https://github.com/chasedavid/BlackFridayClustering"><p>Black Friday Clustering</p></a></li>
+                <li><a href="https://github.com/kbrown1138/JavaScript-UFO-Search"><p>JavaScript UFO Search</p></a></li>
+                <li><a href="https://github.com/kbrown1138/Mission-to-Mars"><p>Mission to Mars</p></a></li>
+                <li><a href="https://github.com/kbrown1138/SQL-Alchemy-Surfs-Up"><p>SQL Alchemy Surf's Up</p></a></li>
+                <li><a href="https://github.com/kbrown1138/Twitter-Sentiment-Analysis"><p>Twitter Sentiment Analysis</p></a></li>
+                <li><a href="https://github.com/kbrown1138/Python-API-WeatherPy-Analysis"><p>Python API WeatherPy Analysis</p></a></li>
+                <li><a href="https://github.com/kbrown1138/Matplotlib-Pyber-Data-Analysis"><p>Matplotlib Pyber Data Analysis</p></a></li>
+                <li><a href="https://github.com/kbrown1138/Pandas-Heroes-Of-Pymoli"><p>Pandas Heroes of Pymoli</p></a></li>
+                <li><a href="https://github.com/kbrown1138/The-VBA-of-Wall-Street"><p>The VBA of Wall Street</p></a></li>
+                <li><a href="https://github.com/kbrown1138/Kickstarter"><p>Kickstarter</p></a></li>
+              </ul>
+            </li>
+            <li><a href="about_me.html">About Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   
   <div class="container">
 
@@ -26,12 +59,13 @@
         <h2 id="bio-name">Kyle William Brown</h2>
         <img id="bio-image" src="https://avatars2.githubusercontent.com/u/42014112?v=4" alt="Kyle Brown">
       </section>
-      <p>I am an accomplished data scientist who loves analyzing information in order to see the bigger picture. I love reading, learning about history and different cultures, traveling,
-        playing video games, watching movies and having a good time with my friends. I am also a Barrett honors graduate from Arizona State University within the School of Earth and Space Exploration.
-        My concentration was Astrobiology and Biogeosciences and I love learning about science and the mysteries of the Universe.
+      <p>An accomplished Data Scientist who loves analyzing information and working with people in order to see the bigger picture. 
+        A critical thinker who has experience with problem-solving using data and programming in order to effectively analyze information. 
+        Previously focused on projects concerning climate change and terrorism and now wants to expand toward more diverse science and business-related positions.
       </p>
-      <p>I am relatively new to the data science profession but the University of Arizona Data Analytics Bootcamp has taught me so much related to the technical skills required to survive in this field.
-          My skills include Excel, Python 3, SQL, HTML, CSS, and other programming languages related to analytics and I am a fast learner with an enthusiasm for new experiences.
+      <p> I love reading, learning about history and different cultures, traveling, playing video games, watching movies and having a good time with my friends. 
+          I am also a Barrett honors graduate from Arizona State University within the School of Earth and Space Exploration.
+           My concentration was Astrobiology and Biogeosciences and I love learning about science and the mysteries of the Universe.
       </p>
     </section>
 
@@ -39,13 +73,36 @@
       <h2>Contact Info</h2>
       <ul>
         <li><strong>Email:</strong> <a href="#">kbrown1138@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">https://github.com/kbrown1138</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kyle-brown-480558a0/">https://www.linkedin.com/in/kyle-brown-480558a0/</a></li>
+        <li><strong>Github:</strong> <a href="https://github.com/kbrown1138">https://github.com/kbrown1138</a></li>
         <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
       </ul>
     </aside>
   </main>
 </div>
+<div class="col-sm-12 col-md-12">
+    <div class="box-2">
+        <div class="page-header">
+            <h1>Work Samples</h1>
+        </div>
+        <div class="box">
+           <a href="https://kbrown1138.github.io/Leaflet-Data-Visualization/"><img src="Leaflet-Data-Visualization.png" height="500" width="900"><p>Leaflet Earthquake Data Visualization</p></a>
+           <br>
+           <a href="https://kbrown1138.github.io/D3-Data-Journalism/"><img src="D3-Data-Journalism.png" height="500" width="900"><p>D3 Data Journalism</p></a>
+           <br>
+           <a href="https://bellybutton-biodiversity-kyle.herokuapp.com/"><img src="Belly-Button-Biodiversity.png" height="500" width="900">><p>Belly Button Biodiversity</p></a>
+           <br>
+           <a href="https://kbrown1138.github.io/Web-Visualization-Dashboard/"><img src="OpenWeatherMap-API-Visualization-Dashboard.png" height="500" width="900"><p>OpenWeatherMap API Visualization-Dashboard</p></a>
+           <br>
+           <a href="https://github.com/chasedavid/project1_uofa"><img src="Terrorism-Fatalities.png" height="500" width="900"><p>Global Terrorism</p></a>
+        </div>
+    </div>
+</div>
 
 </body>
+
+<footer>
+    <p>© 2019 Kyle W. Brown</p>
+</footer>
 
 </html>
